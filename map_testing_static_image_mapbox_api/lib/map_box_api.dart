@@ -3,11 +3,8 @@ import 'package:mapbox_search/colors/color.dart';
 import 'package:mapbox_search/mapbox_search.dart';
 
 class API {
-  static const String googleAPI = 'AIzaSyA9jVfg8BZ_8yn2sfadeGJQNuE06pz2v9I';
-  static const String bingAPI =
-      'AnhLcaKdXHhMxvTrMgecxHIsEzi03xi_yyk1SLT5MWMhtF3WdnaNFl9uv2hjwiGL';
   static const String mapBoxAPI =
-      'sk.eyJ1IjoiYXNxcmUiLCJhIjoiY2xnYnNoMjRqMDZ4azNmbzB1Z2FrZmVlYSJ9.dvz8YhPzseqwyCjkEDd_LQ';
+      'MAP_BOX_TOKEN';
 }
 
 List<Location> locations = [
