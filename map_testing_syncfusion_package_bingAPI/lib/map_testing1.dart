@@ -29,7 +29,7 @@ class _MapTesting1State extends State<MapTesting1> {
   Widget build(BuildContext context) {
     return FutureBuilder(
         future: getBingUrlTemplate(
-        'https://dev.virtualearth.net/REST/V1/Imagery/Metadata/AerialWithLabels?output=json&uriScheme=https&include=ImageryProviders&key=AnhLcaKdXHhMxvTrMgecxHIsEzi03xi_yyk1SLT5MWMhtF3WdnaNFl9uv2hjwiGL'),
+        'https://dev.virtualearth.net/REST/V1/Imagery/Metadata/AerialWithLabels?output=json&uriScheme=https&include=ImageryProviders&key=BING_API'),
         builder: (context, snapshot) {
           if (snapshot.hasData) {
             return SfMaps(
